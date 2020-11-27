@@ -34,7 +34,7 @@ public class Password {
         if (lengthFlag && numberFlag && capitalFlag && lowerCaseFlag && specialFlag && !spaceFlag) {
             return true;
         }
-        throw new Exception("Must have capital and lower case characters. Must have no spaces and have special characters.");
+        throw new Exception("Must have capital and lower case characters. Must have no spaces and special characters.");
 
     }
 }
